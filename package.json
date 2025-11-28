@@ -1,0 +1,18 @@
+{
+  "name": "clickup-webhook-server",
+  "version": "1.0.0",
+  "description": "Server to receive ClickUp webhooks",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["clickup", "webhook", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
